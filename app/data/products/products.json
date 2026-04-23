@@ -1,0 +1,123 @@
+{
+    "homepage": {
+        "products": [
+            {
+                "id": "monolith-pre-workout",
+                "name": "Monolith Pre-Workout",
+                "price": 54.00,
+                "tag": "Best Seller",
+                "description": "Dual-stage clinical energy delivery system. Zero crash. Extreme focus matrix.",
+                "image": "pre-workout.png",
+                "action": {
+                    "type": "primary",
+                    "label": "Add to Protocol"
+                }
+            },
+            {
+                "id": "amino-recovery",
+                "name": "Amino Recovery",
+                "price": 38.00,
+                "image": "amino-recovery.png",
+                "action": {
+                    "type": "quick_add",
+                    "label": "Quick Add"
+                }
+            },
+            {
+                "id": "neuro-focus",
+                "name": "Neuro-Focus",
+                "price": 42.00,
+                "image": "neuro-focus.png",
+                "action": {
+                    "type": "quick_add",
+                    "label": "Quick Add"
+                }
+            },
+            {
+                "id": "hydrate-elite",
+                "name": "Hydrate Elite",
+                "price": 29.00,
+                "image": "hydrate-elite.png",
+                "action": {
+                    "type": "quick_add",
+                    "label": "Quick Add"
+                }
+            }
+        ],
+        "bundle": {
+            "id": "custom-bundles",
+            "title": "Custom Bundles",
+            "tag": "Lab Tested",
+            "description": "Optimize your stack and save 15% on monthly protocols.",
+            "action": {
+                "label": "Build Yours"
+            }
+        }
+    },
+    "productsPage": {
+        "products": [
+            {
+                "name": "ISO-MONOLITH WHEY",
+                "tag": "Best Seller",
+                "price": 64.00,
+                "image": "iso-monolith-whey.png",
+                "description": "Cold-filtered whey protein isolate with added digestive enzymes for maximum bioavailability and muscle synthesis.",
+                "features": [
+                    "25G PROTEIN",
+                    "0.5G FAT",
+                    "LACTOSE FREE"
+                ],
+                "cta": "ADD TO RITUAL"
+            },
+            {
+                "name": "PLANT KINETIC MATRIX",
+                "tag": "New Arrival",
+                "price": 58.00,
+                "image": "plant-kinetic-matrix.png",
+                "description": "Tri-source vegan protein blend featuring pea, pumpkin seed, and brown rice with a full amino acid profile.",
+                "features": [
+                    "21G PROTEIN",
+                    "FERMENTED",
+                    "SOY FREE"
+                ],
+                "cta": "ADD TO RITUAL"
+            },
+            {
+                "name": "HYDRO-MAX PEPTIDES",
+                "tag": null,
+                "price": 49.00,
+                "image": "hydro-max-peptides.png",
+                "description": "Ultra-low molecular weight collagen peptides for connective tissue support and metabolic health.",
+                "features": [
+                    "TYPE I & III",
+                    "GRASS-FED",
+                    "UNFLAVORED"
+                ],
+                "cta": "ADD TO RITUAL"
+            },
+            {
+                "name": "NIGHTLY RECOVERY",
+                "tag": null,
+                "price": 62.00,
+                "image": "nightly-recovery.png",
+                "description": "Sustained-release micellar casein blended with L-Theanine and Magnesium for overnight anabolic support.",
+                "features": [
+                    "Slow Release",
+                    "Rest Support"
+                ],
+                "cta": "ADD TO RITUAL"
+            },
+            {
+                "name": "THE MONOLITH STACK",
+                "tag": null,
+                "price": 120.00,
+                "image": "monolith-stack.png",
+                "description": "Combine ISO-MONOLITH, CREATINE-X, and HYDRA-FUEL for the ultimate synergistic performance profile. Save 15% on the complete system.",
+                "features": [
+                    null
+                ],
+                "cta": "Secure Stack"
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "type": "brand",
+        "title": "NUTRITION",
+        "description": "Engineering the future of athletic performance through precision science and unyielding quality."
+    },
+    {
+        "type": "section",
+        "title": "PROTOCOLS",
+        "items": [
+            "Endurance Stack",
+            "Hypertrophy Lab",
+            "Cognitive Series",
+            "Recovery Matrix"
+        ]
+    },
+    {
+        "type": "section",
+        "title": "INFORMATION",
+        "items": [
+            "Privacy Policy",
+            "Terms of Service",
+            "Shipping",
+            "Returns"
+        ]
+    },
+    {
+        "type": "newsletter",
+        "title": "NEWSLETTER",
+        "description": "Join the lab report for elite performance data.",
+        "placeholder": "EMAIL ADDRESS"
+    },
+    {
+        "type": "copyright",
+        "text": "© 2026 NUTRITION"
+    }
+]

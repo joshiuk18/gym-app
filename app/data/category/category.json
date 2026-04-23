@@ -1,0 +1,38 @@
+{
+    "hero_section": {
+        "tagline": "ENGINEERED PERFORMANCE",
+        "headline": "FUEL YOUR EVOLUTION.",
+        "description": "Precision-formulated supplements designed for those who demand absolute structural integrity and kinetic energy.",
+        "image": "gym.png"
+    },
+    "sections": [
+        {
+            "category": "Hypertrophy",
+            "title": "Muscle Building (Proteins)",
+            "description": "Synthesize mass with medical-grade protein isolates and amino complexes engineered for maximum bioavailability.",
+            "image": "muscle-building.png",
+            "btn": "Explore Formulae"
+        },
+        {
+            "category": "Energy",
+            "title": "Performance & Power (Pre-workouts)",
+            "description": "Ignite neurological focus and explosive ATP production for relentless sessions.",
+            "image": "workouts.png",
+            "btn": "Unleash Power"
+        },
+        {
+            "category": "Core Wellness",
+            "title": "Vitality & Recovery (Vitamins)",
+            "description": "Optimize your biological foundation. Micronutrient stacks tailored for elite cellular repair and immune resilience.",
+            "image": "Vitamins.png",
+            "btn": "Explore Wellness"
+        },
+        {
+            "category": "Stamina",
+            "title": "Endurance & Hydration",
+            "description": "Electrolyte ratios and intra-workout carbs designed to sustain peak output during extreme duration tasks.",
+            "image": "Hydration.png",
+            "btn": "Go the Distance"
+        }
+    ]
+}

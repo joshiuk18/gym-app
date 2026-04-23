@@ -1,0 +1,37 @@
+{
+    "tag": "THE MANIFESTO",
+    "heading": {
+        "normal": "WHY WE",
+        "highlight": "BUILD"
+    },
+    "sections": [
+        {
+            "description": "Kinetic Monolith wasn't born in a marketing boardroom. It was born in the pre-dawn silence of a deadlift platform and the calculated precision of the biochemistry lab."
+        },
+        {
+            "description": "We saw a market saturated with \"proprietary blends\" and neon-colored sugar water. We chose a different path: extreme transparency, clinical dosages, and biological integrity."
+        },
+        {
+            "description": "Our supplements are for those who treat their bodies like a high-performance machine. We don't provide a shortcut; we provide the high-octane fuel required to push past your current biological limits."
+        }
+    ],
+    "highlightCard": {
+        "title": "ENGINEERED STABILITY",
+        "description": "Every batch is third-party tested for purity and potency in our ISO-certified facility."
+    },
+    "stats": [
+        {
+            "value": "100%",
+            "label": "TRANSPARENT"
+        },
+        {
+            "value": "0",
+            "label": "FILLERS"
+        },
+        {
+            "value": "Elite",
+            "label": "STANDARD"
+        }
+    ],
+    "image": "/manifesto.png"
+}

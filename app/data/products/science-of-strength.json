@@ -1,0 +1,20 @@
+{
+    "title": "The Science of Strength",
+    "features": [
+        {
+            "icon": "lab",
+            "title": "Lab-Verified Purity",
+            "description": "Every batch undergoes rigorous third-party testing for heavy metals, contaminants, and label accuracy. Transparency is our foundation."
+        },
+        {
+            "icon": "lightning",
+            "title": "Rapid Kinematics",
+            "description": "Instantized formulas for zero-clump mixing and immediate absorption."
+        },
+        {
+            "icon": "leaf",
+            "title": "Sustainable Sourcing",
+            "description": "Responsibly farmed ingredients with minimal environmental footprint."
+        }
+    ]
+}
