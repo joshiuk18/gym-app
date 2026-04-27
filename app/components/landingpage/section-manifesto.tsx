@@ -1,6 +1,8 @@
 import Image from "next/image";
 import manifesto from "@/app/data/homepage/manifesto.json";
 
+import { IconEngineer } from "@/app/components/icons/store-icons"
+
 export function Manifesto() {
     return (
         <section className="bg-black text-white py-16 md:py-24">
@@ -18,8 +20,7 @@ export function Manifesto() {
 
                     <div className="w-[80%] sm:w-xs absolute -bottom-4 sm:-bottom-6 left-1/2 -translate-x-1/2 md:translate-x-0 md:-left-6 bg-lime-400 text-black py-6 sm:py-10 px-5 sm:px-8 rounded flex flex-col gap-3 sm:gap-4">
 
-                        <button className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-lg border border-white/10 bg-black hover:bg-lime-400 transition">
-                        </button>
+                        <IconEngineer className="w-10 h-10 text-black" />
 
                         <h3 className="font-black text-base sm:text-lg pr-2 sm:pr-4 text-black/70 leading-tight">
                             {manifesto.highlightCard.title}

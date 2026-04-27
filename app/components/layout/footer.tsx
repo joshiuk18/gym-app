@@ -1,5 +1,7 @@
 import footerData from "@/app/data/footer/footer.json";
 
+import { IconGlobe, IconShare, IconCopyright, IconArrowRight } from "@/app/components/icons/store-icons"
+
 export function SiteFooter() {
     return (
         <footer className="bg-black">
@@ -18,13 +20,9 @@ export function SiteFooter() {
                                     {sec.description}
                                 </p>
 
-                                <div className="flex gap-3 mt-6">
-                                    <button
-                                        className="w-10 h-10 rounded-lg border border-white/10 hover:border-lime-400 hover:bg-lime-400 transition"
-                                    />
-                                    <button
-                                        className="w-10 h-10 rounded-lg border border-white/10 hover:border-lime-400 hover:bg-lime-400 transition"
-                                    />
+                                <div className="flex gap-3 mt-6 ">
+                                    <IconGlobe className="w-10 h-10 p-2 text-white border border-gray-700 rounded-xl cursor-pointer hover:bg-lime-400 hover:text-black " />
+                                    <IconShare className="w-10 h-10 p-2 text-white border border-gray-700 rounded-xl cursor-pointer hover:bg-lime-400 hover:text-black " />
                                 </div>
                             </div>
                         );
@@ -68,7 +66,7 @@ export function SiteFooter() {
                                         className="w-full px-4 py-3 text-sm text-white outline-none placeholder-gray-500"
                                     />
                                     <button className="px-4 text-lime-400 hover:text-lime-300">
-                                        →
+                                        <IconArrowRight className="w-10 h-5" />
                                     </button>
                                 </div>
                             </div>
@@ -83,7 +81,10 @@ export function SiteFooter() {
                                 className="col-span-full border-t border-white/10"
                             >
                                 <div className="mx-auto max-w-7xl px-6 py-6 flex justify-center text-xs text-gray-500">
-                                    <p>{sec.text}</p>
+                                    <p className="flex items-center gap-1">
+                                        <IconCopyright className="w-5 h-5 shrink-0" />
+                                        {sec.text}
+                                    </p>
                                 </div>
                             </div>
                         );

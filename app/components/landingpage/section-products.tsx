@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import productsData from "@/app/data/products/products.json";
 
+import { IconFlask } from "@/app/components/icons/store-icons"
+
 export function Product() {
     const featured = productsData.homepage.products[0];
     const others = productsData.homepage.products.slice(1);
@@ -119,7 +121,8 @@ export function Product() {
 
                             <div>
                                 <div className="flex justify-between items-start mb-6">
-                                    <button className="w-10 h-10 flex items-center justify-center rounded-lg border border-white/10 bg-black hover:bg-lime-400 transition" />
+
+                                    <IconFlask className="w-8 h-8 text-lime-400" />
 
                                     <p className="text-lime-400 border py-1 px-2 bg-lime-400/10 uppercase text-[9px] font-extrabold tracking-wide">
                                         {productsData.homepage.bundle.tag}

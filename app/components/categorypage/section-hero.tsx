@@ -4,7 +4,7 @@ import category from "@/app/data/category/category.json";
 export function HeroSection() {
     return (
         <section className="bg-black w-full">
-            <div className="p-16">
+            <div className="p-8 max-w-375 mx-auto">
                 <div className="relative w-full h-[70vh] min-h-100 overflow-hidden rounded-lg">
 
                     <Image
@@ -17,7 +17,7 @@ export function HeroSection() {
 
                     <div className="absolute inset-0 bg-black/50 transition" />
 
-                    <div className="relative z-10 flex flex-col justify-center h-full px-6 sm:px-10 md:px-16 lg:px-24 text-white">
+                    <div className="relative z-10 flex flex-col justify-center h-full px-6 sm:px-6 md:px-8 lg:px-8 text-white">
 
                         <p className="text-lime-400 tracking-[0.3em] text-[10px] sm:text-xs md:text-sm mb-4 uppercase">
                             {category.hero_section.tagline}

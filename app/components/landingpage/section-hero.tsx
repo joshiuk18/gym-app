@@ -1,6 +1,8 @@
 import Image from "next/image";
 import heroData from "@/app/data/homepage/hero.json";
 
+import { IconArrowRight } from "@/app/components/icons/store-icons"
+
 export function Hero() {
     return (
         <section className="relative w-full h-[80vh] sm:h-[95vh] md:h-[125vh]">
@@ -46,7 +48,9 @@ export function Hero() {
 
                         <button className="bg-lime-300 text-black transition duration-200 hover:scale-110 cursor-pointer px-12 py-5 text-sm md:text-base font-semibold rounded-md w-full sm:w-auto flex items-center justify-center gap-2 hover:bg-lime-300">
                             {heroData.Btn1}
-                            <span className="text-lg">→</span>
+                            <span className="text-lg">
+                                <IconArrowRight className="w-5 h-5 text-black" />
+                            </span>
                         </button>
 
                         <button className="border border-white/40 cursor-pointer px-12 py-5 text-sm md:text-base font-semibold rounded-md w-full sm:w-auto hover:bg-white/15  transition">
