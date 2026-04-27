@@ -5,9 +5,9 @@ import { IconArrowRight } from "@/app/components/icons/store-icons"
 
 export function Hero() {
     return (
-        <section className="relative w-full h-[80vh] sm:h-[95vh] md:h-[125vh]">
+        <section className="relative w-full h-[80vh] sm:h-[95vh] md:h-screen">
 
-            <div>
+            <div className="absolute inset-0">
                 <Image
                     src={heroData.image}
                     alt="hero"
