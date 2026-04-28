@@ -87,10 +87,9 @@ export function Product() {
 
                                 <div className="relative w-full h-40 overflow-hidden">
                                     <Image
-                                        src={`/${product.image}`}
+                                        src={`/Products/${product.image}`}
                                         alt={product.name}
                                         fill
-                                        sizes="(max-width: 768px) 50vw, 25vw"
                                         className="object-cover transition-transform duration-200 group-hover:scale-105"
                                     />
                                 </div>
