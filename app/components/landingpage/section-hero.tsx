@@ -20,7 +20,7 @@ export function Hero() {
                     />
 
 
-                    {/* <div className="absolute inset-0 bg-black/80 rounded-xl" /> */}
+                    <div className="absolute inset-0 bg-black/70 rounded-xl" />
                 </div>
             </div>
 
