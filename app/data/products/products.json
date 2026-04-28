@@ -58,6 +58,7 @@
         "products": [
             {
                 "name": "ISO-MONOLITH WHEY",
+                "slug": "iso-monolith-whey",
                 "tag": "Best Seller",
                 "price": 64.00,
                 "image": "iso-monolith-whey.png",
@@ -71,6 +72,7 @@
             },
             {
                 "name": "PLANT KINETIC MATRIX",
+                "slug": "plant-kinetic-matrix",
                 "tag": "New Arrival",
                 "price": 58.00,
                 "image": "plant-kinetic-matrix.png",
@@ -84,6 +86,7 @@
             },
             {
                 "name": "HYDRO-MAX PEPTIDES",
+                "slug": "hydro-max-peptides",
                 "tag": null,
                 "price": 49.00,
                 "image": "hydro-max-peptides.png",
@@ -97,6 +100,7 @@
             },
             {
                 "name": "NIGHTLY RECOVERY",
+                "slug": "nightly-recovery",
                 "tag": null,
                 "price": 62.00,
                 "image": "nightly-recovery.png",
@@ -109,12 +113,14 @@
             },
             {
                 "name": "THE MONOLITH STACK",
+                "slug": "the-monolith-stack",
                 "tag": null,
                 "price": 120.00,
                 "image": "monolith-stack.png",
                 "description": "Combine ISO-MONOLITH, CREATINE-X, and HYDRA-FUEL for the ultimate synergistic performance profile. Save 15% on the complete system.",
                 "features": [
-                    null
+                    "Slow Release",
+                    "UNFLAVORED"
                 ],
                 "cta": "Secure Stack"
             }

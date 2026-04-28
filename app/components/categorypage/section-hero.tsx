@@ -4,7 +4,7 @@ import category from "@/app/data/category/category.json";
 export function HeroSection() {
     return (
         <section className="bg-black w-full">
-            <div className="p-8 max-w-375 mx-auto">
+            <div className="p-8 max-w-7xl mx-auto">
                 <div className="relative w-full h-[70vh] min-h-100 overflow-hidden rounded-lg">
 
                     <Image
