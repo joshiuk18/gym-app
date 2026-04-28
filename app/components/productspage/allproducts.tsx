@@ -9,9 +9,9 @@ import { IconSliders } from "@/app/components/icons/store-icons"
 
 export function Products() {
 
-    const [open, setOpen] = useState(null);
+    const [open, setOpen] = useState<number | null>(null);
 
-    const handleClick = (index) => {
+    const handleClick = (index: number) => {
         setOpen(open === index ? null : index);
     }
 
