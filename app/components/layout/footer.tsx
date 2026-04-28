@@ -37,7 +37,7 @@ export function SiteFooter() {
                                 </h3>
 
                                 <ul className="space-y-3 text-sm text-gray-500">
-                                    {sec.items.map((item, i) => (
+                                    {sec.items?.map((item, i) => (
                                         <li key={i} className="hover:text-white transition cursor-pointer">
                                             {item}
                                         </li>
