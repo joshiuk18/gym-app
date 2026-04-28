@@ -8,7 +8,7 @@ export function Hero() {
 
 
             <div className="absolute inset-0 flex justify-center items-center">
-                <div className="w-full max-w-7xl h-full relative">
+                <div className="w-full max-w-8xl h-full relative">
 
                     <Image
                         src={heroData.image}
@@ -20,7 +20,7 @@ export function Hero() {
                     />
 
 
-                    <div className="absolute inset-0 bg-black/80 rounded-xl" />
+                    {/* <div className="absolute inset-0 bg-black/80 rounded-xl" /> */}
                 </div>
             </div>
 

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from 'next/link';
 
 import productsData from "@/app/data/products/products.json";
-import { IconSliders } from "@/app/components/icons/store-icons";
 
 export function Products() {
 
@@ -12,59 +11,13 @@ export function Products() {
 
     return (
         <section className="bg-black w-full">
-            <div className="py-10 sm:py-16">
+            <div className="max-w-7xl mx-auto py-10 sm:py-16">
 
-                {/* FILTER BAR */}
-                <div className="w-full bg-black text-gray-300 px-4 sm:px-6 py-4 my-6 sm:my-8 border-y border-gray-900">
-                    <div className="max-w-7xl mx-auto flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-
-                        {/* Filters */}
-                        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 sm:gap-6">
-
-                            <div className="flex items-center gap-2 w-full sm:w-auto">
-                                <span className="text-xs sm:text-sm uppercase tracking-wide text-gray-400">
-                                    Flavor:
-                                </span>
-                                <select className="w-full sm:w-auto bg-gray-900 text-white text-sm px-3 py-2 rounded-md focus:outline-none">
-                                    <option>All Flavors</option>
-                                    <option>Raw Cacao</option>
-                                    <option>Arctic Vanilla</option>
-                                    <option>Unflavoured</option>
-                                </select>
-                            </div>
-
-                            <div className="flex items-center gap-2 w-full sm:w-auto">
-                                <span className="text-xs sm:text-sm uppercase tracking-wide text-gray-400">
-                                    Size:
-                                </span>
-                                <select className="w-full sm:w-auto bg-gray-900 text-white text-sm px-3 py-2 rounded-md focus:outline-none">
-                                    <option>All Sizes</option>
-                                    <option>1 kg</option>
-                                    <option>2.5 kg</option>
-                                </select>
-                            </div>
-
-                        </div>
-
-
-                        <div className="flex flex-row sm:items-center gap-3 sm:gap-6">
-                            <span className="text-xs sm:text-sm text-gray-400">
-                                Showing {productLength} results
-                            </span>
-
-                            <div className="flex items-center gap-2 hover:text-lime-400 cursor-pointer">
-                                <IconSliders className='w-5 h-5' />
-                                <span className="uppercase tracking-wide text-xs sm:text-sm font-extrabold">
-                                    Advanced Filters
-                                </span>
-                            </div>
-                        </div>
-
-                    </div>
+                <div className="text-lg text-white px-8 py-4">
+                    Showing {productLength} results
                 </div>
 
-
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+                <div className=" px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
 
                     {productsData.productsPage.products.map((item, index) => (
                         <div

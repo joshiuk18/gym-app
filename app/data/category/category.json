@@ -3,7 +3,7 @@
         "tagline": "ENGINEERED PERFORMANCE",
         "headline": "FUEL YOUR EVOLUTION.",
         "description": "Precision-formulated supplements designed for those who demand absolute structural integrity and kinetic energy.",
-        "image": "gym.png"
+        "image": "gym.jpg"
     },
     "sections": [
         {
@@ -17,7 +17,7 @@
             "category": "Energy",
             "title": "Performance & Power (Pre-workouts)",
             "description": "Ignite neurological focus and explosive ATP production for relentless sessions.",
-            "image": "workouts.png",
+            "image": "workouts.jpg",
             "btn": "Unleash Power"
         },
         {

@@ -12,7 +12,7 @@ export function SiteHeader() {
 
     return (
         <header className="bg-black w-full">
-            <div className="max-w-7xl mx-auto flex flex-wrap md:flex-nowrap items-center justify-between px-6 py-4">
+            <div className="max-w-8xl mx-auto flex flex-wrap md:flex-nowrap items-center justify-between px-6 py-4">
 
                 <Link href="/" className="text-lime-400 font-extrabold text-2xl tracking-wide">
                     NUTRITION

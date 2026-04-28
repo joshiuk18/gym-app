@@ -8,7 +8,7 @@ const icons = [IconDumble, IconBolt, IconSparkles, IconDroplet];
 export function CategorySection() {
     return (
         <section className="bg-black w-full p-6">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-6 h-250">
+            <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-6 h-250">
 
                 {category.sections.map((item, index) => {
                     const Icon = icons[index];

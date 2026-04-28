@@ -8,13 +8,13 @@ export function Manifesto() {
         <section className="bg-black text-white py-16 md:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 items-center gap-10 md:gap-16">
 
-                <div className="relative">
+                <div className="relative h-175">
                     <Image
                         src={manifesto.image}
                         alt="manifesto"
                         width={1000}
                         height={1000}
-                        className="w-full h-auto object-cover"
+                        className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-black/50" />
 
